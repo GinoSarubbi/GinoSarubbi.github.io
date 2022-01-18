@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  max-width: 1440px;
+}
+
+header {
+  text-align: center;
+}
+main {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+.imgarriba {
+  width: 270px;
+  height: 270px;
+  border-radius: 10px;
+  margin: 20px;
+  margin-left: 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.tarjeta {
+  border-radius: 10px;
+  margin: 50px auto;
+  width: 300px;
+  height: 520px;
+  background-color: hsl(216, 50%, 16%);
+  color: white;
+  box-shadow: 0px 10px 10px 15px rgb(12 23 41);
+}
+
+.titulo {
+  margin-top: -14px;
+  float: left;
+  width: 100%;
+  margin-left: 20px;
+}
+.titulo1 {
+  font-size: 19px;
+  float: left;
+  margin-left: -3px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.titulo1:hover {
+  color: rgb(24, 232, 243);
+}
+
+.p1 {
+  text-align: left;
+  width: 260px;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-left: -4px;
+}
+
+main {
+  margin-top: 93px;
+}
+.precio {
+  margin-left: 16px;
+  float: left;
+  color: rgb(24, 232, 243);
+}
+.dias {
+  float: right;
+  margin-right: 16px;
+}
+
+.parteinferior {
+  margin-top: 134px;
+  display: flex;
+  margin-left: 18px;
+  border-top: 1px solid white;
+  width: 264px;
+  padding-top: 15px;
+}
+
+.imgabajo {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+.p3 {
+  margin-top: 12px;
+  margin-left: 14px;
+}
+
+.attribution {
+  color: white;
+  margin-top: -30px;
+  font-size: 13px;
+}
+
+.p4 {
+  margin-left: 5px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.href {
+  color: white;
+  text-decoration: none;
+}
+.href:hover {
+  color: rgb(24, 232, 243);
+}
